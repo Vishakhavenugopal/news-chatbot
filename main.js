@@ -125,7 +125,7 @@ function showchatbotmsg(chatbotmsg) {
 function chatbotvoice(message) {
     const speech = new SpeechSynthesisUtterance();
     speech.text = "Sorry, I can't understand try again";
-    if (message.includes('hi')) {
+    if (message.includes('hai')) {
         let finalresult = `Hello, I am Zebrun. How can I help you?`;
         speech.text = finalresult;
     }
