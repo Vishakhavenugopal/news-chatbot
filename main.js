@@ -138,11 +138,11 @@ function chatbotvoice(message) {
         let finalresult = intro[0]+intro[1];
         speech.text = finalresult;
     }
-    if (message.includes('what you can do')) {
+    if (message.includes('what can you do')) {
         let finalresult = 'I can tell you the News from all over India';
         speech.text = finalresult;
     }
-    if (message.includes('what you can do for me')) {
+    if (message.includes('what can you do for me')) {
         let finalresult = 'I can tell you the News from all over India';
         speech.text = finalresult;
     }
